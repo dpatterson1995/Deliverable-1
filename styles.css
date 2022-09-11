@@ -1,0 +1,145 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+#code-pic {
+  visibility: hidden;
+}
+
+header {
+  background-color: #f2f2f2;
+}
+
+.hbox {
+  padding-left: 8px;
+}
+
+button {
+  background-color: #20a8b4;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+#contact {
+  cursor: pointer;
+  width: 100%;
+}
+
+#learn {
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #ff5c0f;
+}
+button:hover {
+  background-color: #ff5c0f;
+}
+
+li {
+  margin: 4px;
+  font-weight: bold;
+}
+
+.learnto {
+  color: #20a8b4;
+}
+
+.code {
+  color: #ff5c0f;
+}
+
+.ltc {
+  color: #ff5c0f;
+}
+
+@media screen and (min-width: 768px) {
+  .hbox {
+    display: flex;
+    align-items: center;
+  }
+
+  .list {
+    margin-left: auto;
+  }
+
+  h1 {
+    margin: 10px;
+  }
+
+  button {
+    background-color: #20a8b4;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 12px;
+  }
+  .nav-list {
+    list-style: none;
+  }
+
+  .nav-list li {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  a:hover {
+    color: #ff5c0f;
+  }
+
+  button:hover {
+    background-color: #ff5c0f;
+  }
+
+  main {
+    margin-top: 10em;
+  }
+  #code-pic {
+    float: right;
+    visibility: unset;
+  }
+
+  img {
+    margin-top: 5em;
+    margin-right: 10em;
+  }
+
+  .ltc {
+    color: #ff5c0f;
+  }
+
+  .learnto {
+    color: #20a8b4;
+  }
+
+  .code {
+    color: #ff5c0f;
+  }
+
+  .learntocode {
+    display: flex;
+  }
+
+  #learn {
+    width: auto;
+  }
+
+  #contact {
+    width: auto;
+  }
+}
